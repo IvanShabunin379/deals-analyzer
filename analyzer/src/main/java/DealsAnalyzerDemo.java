@@ -1,11 +1,7 @@
-package edu;
-
-import edu.deals.Deal;
-import edu.deals.DealsAnalyzer;
-import edu.deals.DealsParser;
-import edu.deals.exceptions.DealParseException;
+import exceptions.DealParseException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.List;
@@ -13,7 +9,7 @@ import java.util.Map;
 
 public class DealsAnalyzerDemo {
     private static final Logger logger = LogManager.getLogger(DealsAnalyzerDemo.class);
-    private static final Path DEALS_FILE_PATH = Path.of("src/main/resources/deals.txt");
+    private static final Path DEALS_FILE_PATH = Path.of("analyzer/`src/main/resources/deals.txt");
 
     public static void main(String[] args) {
         logger.info("Начало демонстрации.");

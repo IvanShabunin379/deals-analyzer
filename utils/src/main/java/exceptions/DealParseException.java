@@ -1,4 +1,4 @@
-package edu.deals.exceptions;
+package exceptions;
 
 public class DealParseException extends RuntimeException {
     private final String parsedString;
